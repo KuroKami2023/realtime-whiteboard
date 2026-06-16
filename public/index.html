@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Whiteboard - Realtime Collab</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="toolbar">
+    <div class="toolbar-group">
+      <label>Room:</label>
+      <div class="room-input-group">
+        <input type="text" id="roomInput" placeholder="room-id" value="default">
+        <button id="joinBtn" class="primary">Join</button>
+      </div>
+    </div>
+
+    <div class="toolbar-group">
+      <label>Color:</label>
+      <input type="color" id="colorPicker" value="#2d3436">
+    </div>
+
+    <div class="toolbar-group">
+      <label>Size:</label>
+      <input type="range" id="brushSize" min="1" max="30" value="4">
+      <span id="brushSizeDisplay" class="brush-size-display">4</span>
+    </div>
+
+    <div class="toolbar-group">
+      <button id="undoBtn">Undo</button>
+      <button id="clearBtn" class="danger">Clear</button>
+    </div>
+
+    <div class="toolbar-group">
+      <span id="userCount">0 users</span>
+    </div>
+  </div>
+
+  <canvas id="canvas"></canvas>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
