@@ -7,6 +7,10 @@ A real-time collaborative whiteboard where multiple users can draw simultaneousl
 
 ---
 
+> 💡 **Portfolio demo:** A simplified browser-based version is available in the [portfolio website](https://kurokami2023.github.io).
+
+---
+
 ## ✨ Features
 
 - ✅ **Real-Time Drawing** — Broadcast strokes to all room participants via WebSockets
