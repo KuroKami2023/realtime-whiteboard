@@ -1,12 +1,8 @@
 # 🎨 Realtime Whiteboard — Collaborative Drawing App
 
-[![Status](https://img.shields.io/badge/status-active-success.svg)]()
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![Socket.io](https://img.shields.io/badge/Socket.io-010101?logo=socket.io&logoColor=white)]()
-![Node.js](https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000000?logo=express&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
-
+[]()
+[](LICENSE)
+[]()
 A real-time collaborative whiteboard where multiple users can draw simultaneously in shared rooms. Built with **Node.js**, **Express**, **Socket.io**, and the **HTML5 Canvas API**. Features live cursor tracking, undo/redo, and room-based collaboration.
 
 ---
@@ -27,8 +23,6 @@ A real-time collaborative whiteboard where multiple users can draw simultaneousl
 
 ---
 
-## 📸 Screenshot
-
 ```
 ┌─────────────────────────────────────────────────┐
 │ [Room: default____] [Join] | [Color: ■] [Size: ═══] [Undo] [Clear] | [3 users] │
@@ -43,8 +37,6 @@ A real-time collaborative whiteboard where multiple users can draw simultaneousl
 │                                                   │
 └─────────────────────────────────────────────────┘
 ```
-
-> *Screenshot placeholder — replace with an actual screenshot of the whiteboard.*
 
 ---
 
