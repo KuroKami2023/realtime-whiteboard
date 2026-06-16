@@ -178,40 +178,8 @@ npm run dev
 
 ---
 
-## 🌐 Deployment
-
-### Render
-
-```bash
-# Connect GitHub repo
-# Build command: npm install
-# Start command: npm start
-```
-
-### Railway
-
-```bash
-# Deploy from GitHub with automatic Node.js detection
-railway up
-```
-
-### Fly.io
-
-```bash
-fly launch
-fly deploy
-```
-
-### Heroku
-
-```bash
-# Create Procfile with:
-web: node server.js
-
-git push heroku main
-```
-
 ---
+
 
 ## 📄 License
 
